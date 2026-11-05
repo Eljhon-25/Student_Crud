@@ -1,0 +1,20 @@
+# OS & IDE
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+.vscode/
+
+# Backend (Maven & Java)
+user-api/target/
+user-api/.mvn/wrapper/maven-wrapper.jar
+*.class
+*.log
+
+# Frontend (Node & Vite)
+student-frontend/node_modules/
+student-frontend/dist/
+student-frontend/.vite/
+student-frontend/*.local
+student-frontend/.env.local
+student-frontend/.env.*.local
